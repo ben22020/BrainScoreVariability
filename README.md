@@ -10,7 +10,7 @@ This repository contains resources and models used in the research paper *"Indiv
   Provides the PyTorch implementation of the AlexNet model.
 - **`extract_activations.py`**  
   Extracts the activations of each layer of each training seed in response to ILSVRC2012 Validation Set stimuli
-  - **`print_vars.py`**  
+- **`print_vars.py`**  
   Prints the layer names and parameters for a given tensorflow checkpoint
 - **`convert_tensorflow_checkpoint.py`**
   Converts a tensorflow checkpoint to a '.pth' file compatable with Pytorch
