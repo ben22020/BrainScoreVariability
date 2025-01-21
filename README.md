@@ -6,13 +6,7 @@ This repository contains resources and models used in the research paper *"Indiv
 
 ## **Repository Contents**
 
-- **`AlexNet/`**  
-  Contains the implementation of the AlexNet architecture used in the study, along with corresponding model weights.
-
 - **`model.py`**  
   Provides the PyTorch implementation of the AlexNet model.
-
-- **`pytorch_ckpts/`**  
-  Stores PyTorch checkpoint files for the trained AlexNet models.
 
 ---
