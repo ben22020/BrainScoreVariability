@@ -1,7 +1,10 @@
 import torch
 import torch.nn as nn
+<<<<<<< HEAD
+=======
 import numpy as np
 import tensorflow as tf
+>>>>>>> 5900e5c465a461ee2fdf230adb218e47e10d3952
 
 def alexnet_v2_pytorch(num_classes=1000, dropout_keep_prob=0.5, global_pool=False):
     """

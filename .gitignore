@@ -3,3 +3,10 @@ ILSVRC2012_img_val/
 ILSVRC2012_img_val.tar
 ILSVRC2012_devkit_t12.tar
 ILSVRC2012_devkit_t12.tar.gz
+
+#Ignore Checkpoints and activations
+AlexNet/
+pytorch_ckpts/
+model_activations/
+
+__pycache__/
