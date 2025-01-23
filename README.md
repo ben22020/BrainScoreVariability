@@ -14,6 +14,6 @@ This repository contains resources and models used in the research paper *"Indiv
   Prints the layer names and parameters for a given tensorflow checkpoint
 - **`convert_tensorflow_checkpoint.py`**
   Converts a tensorflow checkpoint to a '.pth' file compatable with Pytorch
-  - **`similarity_eval.py`**
+- **`similarity_eval.py`**
   Measures the Pearson correlation between the squared Euclidean distance matrices (RDMs) of the layers from two models. Saves results to a csv.
 ---
