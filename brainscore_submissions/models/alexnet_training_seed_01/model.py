@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 import numpy as np
+from brainscore_vision.model_helpers.s3 import load_weight_file, sha1_hash
 from brainscore_vision.model_helpers.check_submission import check_models
 import functools
 from brainscore_vision.model_helpers.activations.pytorch import PytorchWrapper
@@ -76,7 +77,7 @@ def get_model(name):
     
     model = alexnet_v2_pytorch()
     # Load the pretrained weights
-    weights_path = r'.\training_seed_01.pth'
+    weights_path = load_weight_file(bucket = "brainscorevariability", relative_path = "model_weights/training_seed_01.pth", version_id = "null", sha1 = sha1_hash("model_weights/training_seed_01.pth") )
     state_dict = torch.load(weights_path)  # Load the .pth file
     
     # Extract the actual model weights
